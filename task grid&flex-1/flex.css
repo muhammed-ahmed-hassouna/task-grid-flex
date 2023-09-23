@@ -1,0 +1,28 @@
+.cont {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border-radius: 10%;
+    flex-direction: column;
+    margin: 100px 0px 0px 400px;
+    box-shadow:3px 3px 5px 6px white;
+}
+
+.cont > * {
+    margin: 10px 0px 0px 60px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: #d0cdcc;
+}
+
+hr {
+
+    width: 500px;
+}
